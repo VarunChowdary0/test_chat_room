@@ -1,0 +1,109 @@
+.box_body{
+    color: rgb(199, 199, 199);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.top_part{
+    flex: 1;
+    background-color: rgb(133, 149, 149);
+    width: 100%;
+}
+.bottem_part{
+    height: 120px;
+    background-color: rgb(36, 36, 36);
+    padding: 8px;
+}
+.inner_bot{
+    border: 1px solid rgb(117, 117, 117);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+}
+.menu_line{
+    flex: 1;
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.chat_box_line{
+    flex: 1;
+    background-color: rgba(64, 62, 128, 0);
+    display: flex;
+    align-items: center;
+}
+.chat_box_line input{
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size:15px ;
+    padding-left: 10px;
+    color: white;
+    width: 100%;
+}
+.chat_box_line input:focus{
+    outline: none;
+}
+.line_3_{
+    flex: 1;
+    background-color: rgba(101, 67, 66, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.e_1{
+    height: 90%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(137, 43, 226, 0);
+    transition: all 0.24s;
+}
+.e_1:hover{
+    cursor: pointer;
+}
+.e_1:active i{
+    color : gray;
+}
+.ele_l1_4{
+    border-left: 2px solid rgb(178, 178, 178);
+    border-right: 2px solid rgb(176, 176, 176);
+}
+.ele_l1_7{
+    border-left: 2px solid rgb(178, 178, 178);
+    border-right: 2px solid rgb(176, 176, 176);
+}
+.e_2{
+    height: 90%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(137, 43, 226, 0);
+    transition: all 0.24s;
+}
+.ele_l2_2{
+    border-left: 2px solid rgb(178, 178, 178);
+}
+.e_2:hover{
+    cursor: pointer;
+}
+.e_2:active i{
+    color : gray;
+}
